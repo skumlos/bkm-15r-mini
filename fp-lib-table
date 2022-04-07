@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name doit-esp32-devkit-kicad-master)(type KiCad)(uri ${KIPRJMOD}/doit-esp32-devkit-kicad-master)(options "")(descr ""))
+  (lib (name TL-1240)(type KiCad)(uri ${KIPRJMOD}/TL-1240.pretty)(options "")(descr ""))
+)

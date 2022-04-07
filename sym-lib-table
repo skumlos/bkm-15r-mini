@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name doit-esp32-devkit-v1)(type Legacy)(uri ${KIPRJMOD}/doit-esp32-devkit-kicad-master/doit-esp32-devkit-v1.lib)(options "")(descr ""))
+  (lib (name e-switch-tact)(type Legacy)(uri ${KIPRJMOD}/e-switch-tact.lib)(options "")(descr ""))
+  (lib (name bkm-15r-mini-rescue)(type Legacy)(uri ${KIPRJMOD}/bkm-15r-mini-rescue.lib)(options "")(descr ""))
+)
