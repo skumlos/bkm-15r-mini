@@ -1,6 +1,11 @@
 BKM-15R-mini, an alternative to the Sony BKM-15R controller for your BVM-A series monitor.
 
-A small PCB that connects to an ESP32 Devkit V1 and an ENC28J60 module (often referred to as the "large" version).
+A small PCB that connects to an ESP32 Devkit V1 and an ENC28J60 module.
+
+The ESP32 module should be the 30-pin "Devkit V1" which seems pretty common. Note that an 36-pin version also exists, the
+"original" Doit ESP32 Devkit V1", this version needs some "hacking" to work.
+
+The ENC28J60 module exists in many versions. The one designed in here, is the 12-pin 5V version, sometimes referred to as "the large" version.
 
 The ESP32 should be loaded with the code from here: https://github.com/skumlos/bkm-15rduino
 
