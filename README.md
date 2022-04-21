@@ -6,6 +6,7 @@ The ESP32 module should be the 30-pin "Devkit V1" which seems pretty common. Not
 "original" Doit ESP32 Devkit V1", this version needs some "hacking" to work.
 
 The ENC28J60 module exists in many versions. The one designed in here, is the 12-pin 5V version, sometimes referred to as "the large" version.
+It should run on 5V and have 12 pins (apparently a very close version with 10 pins running straight on 3.3V also exists).
 
 The ESP32 should be loaded with the code from here: https://github.com/skumlos/bkm-15rduino
 

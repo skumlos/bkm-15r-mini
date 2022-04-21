@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "5.1.12-84ad8e8a86~92~ubuntu20.04.1"
     },
-    "CreationDate":  "2022-04-07T20:47:11+02:00"
+    "CreationDate":  "2022-04-21T21:58:34+02:00"
   },
   "GeneralSpecs":
   {
@@ -82,6 +82,16 @@
     {
       "Path":  "bkm-15r-mini-Edge_Cuts.gbr",
       "FileFunction":  "Profile",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "bkm-15r-mini-F_Fab.gbr",
+      "FileFunction":  "AssemblyDrawing,Top",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "bkm-15r-mini-B_Fab.gbr",
+      "FileFunction":  "AssemblyDrawing,Bot",
       "FilePolarity":  "Positive"
     }
   ],

@@ -1,0 +1,1625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/martin/SkumServer/eda-projects/bkm-15r-mini/bkm-15r-mini.sch</source>
+    <date>2022-04-21T21:55:56 CEST</date>
+    <tool>Eeschema 5.1.12-84ad8e8a86~92~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>BKM-15R-mini</title>
+        <company>immerhax.com</company>
+        <rev>A</rev>
+        <date/>
+        <source>bkm-15r-mini.sch</source>
+        <comment number="1" value="Martin Hejnfelt"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/InputKeys/" tstamps="/6207A49F/">
+      <title_block>
+        <title>BKM-15R-mini</title>
+        <company>immerhax.com</company>
+        <rev>A</rev>
+        <date/>
+        <source>InputKeys.sch</source>
+        <comment number="1" value="Martin Hejnfelt"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/MCU+LAN/" tstamps="/6207A4CD/">
+      <title_block>
+        <title>BKM-15R-mini</title>
+        <company>immerhax.com</company>
+        <rev>A</rev>
+        <date/>
+        <source>MCU_LAN.sch</source>
+        <comment number="1" value="Martin Hejnfelt"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Navigation+Power/" tstamps="/621626B6/">
+      <title_block>
+        <title>BKM-15R-mini</title>
+        <company>immerhax.com</company>
+        <rev>A</rev>
+        <date/>
+        <source>Navigation_Power.sch</source>
+        <comment number="1" value="Martin Hejnfelt"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>623A5150</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>623A550C</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>623A56F0</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>623A5896</tstamp>
+    </comp>
+    <comp ref="H5">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6242D51F</tstamp>
+    </comp>
+    <comp ref="U101">
+      <value>74HC14</value>
+      <footprint>Package_SO:TSSOP-14_4.4x5mm_P0.65mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74HC14</datasheet>
+      <fields>
+        <field name="JLC">TSSOP-14</field>
+        <field name="LCSC">C6066</field>
+      </fields>
+      <libsource lib="74xx" part="74HC14" description="Hex inverter schmitt trigger"/>
+      <sheetpath names="/InputKeys/" tstamps="/6207A49F/"/>
+      <tstamp>62093C68</tstamp>
+    </comp>
+    <comp ref="SW101">
+      <value>TL-1240-NO_LED</value>
+      <footprint>TL-1240:TL-1240-NO_LED</footprint>
+      <libsource lib="e-switch-tact" part="TL-1240-NO_LED" description=""/>
+      <sheetpath names="/InputKeys/" tstamps="/6207A49F/"/>
+      <tstamp>620953ED</tstamp>
+    </comp>
+    <comp ref="R101">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C98220</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/InputKeys/" tstamps="/6207A49F/"/>
+      <tstamp>62098CE6</tstamp>
+    </comp>
+    <comp ref="R104">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C98220</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/InputKeys/" tstamps="/6207A49F/"/>
+      <tstamp>62099842</tstamp>
+    </comp>
+    <comp ref="C101">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C115056</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/InputKeys/" tstamps="/6207A49F/"/>
+      <tstamp>6209E6F7</tstamp>
+    </comp>
+    <comp ref="SW104">
+      <value>TL-1240-NO_LED</value>
+      <footprint>TL-1240:TL-1240-NO_LED</footprint>
+      <libsource lib="e-switch-tact" part="TL-1240-NO_LED" description=""/>
+      <sheetpath names="/InputKeys/" tstamps="/6207A49F/"/>
+      <tstamp>620AC268</tstamp>
+    </comp>
+    <comp ref="R107">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C98220</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/InputKeys/" tstamps="/6207A49F/"/>
+      <tstamp>620AC26E</tstamp>
+    </comp>
+    <comp ref="R110">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C98220</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/InputKeys/" tstamps="/6207A49F/"/>
+      <tstamp>620AC276</tstamp>
+    </comp>
+    <comp ref="C104">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C115056</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/InputKeys/" tstamps="/6207A49F/"/>
+      <tstamp>620AC28E</tstamp>
+    </comp>
+    <comp ref="SW107">
+      <value>TL-1240-NO_LED</value>
+      <footprint>TL-1240:TL-1240-NO_LED</footprint>
+      <libsource lib="e-switch-tact" part="TL-1240-NO_LED" description=""/>
+      <sheetpath names="/InputKeys/" tstamps="/6207A49F/"/>
+      <tstamp>620B03FF</tstamp>
+    </comp>
+    <comp ref="R113">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C98220</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/InputKeys/" tstamps="/6207A49F/"/>
+      <tstamp>620B0405</tstamp>
+    </comp>
+    <comp ref="R116">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C98220</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/InputKeys/" tstamps="/6207A49F/"/>
+      <tstamp>620B040D</tstamp>
+    </comp>
+    <comp ref="C107">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C115056</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/InputKeys/" tstamps="/6207A49F/"/>
+      <tstamp>620B0425</tstamp>
+    </comp>
+    <comp ref="SW102">
+      <value>TL-1240-NO_LED</value>
+      <footprint>TL-1240:TL-1240-NO_LED</footprint>
+      <libsource lib="e-switch-tact" part="TL-1240-NO_LED" description=""/>
+      <sheetpath names="/InputKeys/" tstamps="/6207A49F/"/>
+      <tstamp>620B62B8</tstamp>
+    </comp>
+    <comp ref="R102">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C98220</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/InputKeys/" tstamps="/6207A49F/"/>
+      <tstamp>620B62BE</tstamp>
+    </comp>
+    <comp ref="R105">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C98220</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/InputKeys/" tstamps="/6207A49F/"/>
+      <tstamp>620B62C6</tstamp>
+    </comp>
+    <comp ref="C102">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C115056</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/InputKeys/" tstamps="/6207A49F/"/>
+      <tstamp>620B62DE</tstamp>
+    </comp>
+    <comp ref="SW103">
+      <value>TL-1240-NO_LED</value>
+      <footprint>TL-1240:TL-1240-NO_LED</footprint>
+      <libsource lib="e-switch-tact" part="TL-1240-NO_LED" description=""/>
+      <sheetpath names="/InputKeys/" tstamps="/6207A49F/"/>
+      <tstamp>620B8DEE</tstamp>
+    </comp>
+    <comp ref="R103">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C98220</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/InputKeys/" tstamps="/6207A49F/"/>
+      <tstamp>620B8DF4</tstamp>
+    </comp>
+    <comp ref="R106">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C98220</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/InputKeys/" tstamps="/6207A49F/"/>
+      <tstamp>620B8DFC</tstamp>
+    </comp>
+    <comp ref="C103">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C115056</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/InputKeys/" tstamps="/6207A49F/"/>
+      <tstamp>620B8E14</tstamp>
+    </comp>
+    <comp ref="SW105">
+      <value>TL-1240-NO_LED</value>
+      <footprint>TL-1240:TL-1240-NO_LED</footprint>
+      <libsource lib="e-switch-tact" part="TL-1240-NO_LED" description=""/>
+      <sheetpath names="/InputKeys/" tstamps="/6207A49F/"/>
+      <tstamp>620BD7BC</tstamp>
+    </comp>
+    <comp ref="R108">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C98220</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/InputKeys/" tstamps="/6207A49F/"/>
+      <tstamp>620BD7C2</tstamp>
+    </comp>
+    <comp ref="R111">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C98220</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/InputKeys/" tstamps="/6207A49F/"/>
+      <tstamp>620BD7CA</tstamp>
+    </comp>
+    <comp ref="C105">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C115056</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/InputKeys/" tstamps="/6207A49F/"/>
+      <tstamp>620BD7E2</tstamp>
+    </comp>
+    <comp ref="SW106">
+      <value>TL-1240-NO_LED</value>
+      <footprint>TL-1240:TL-1240-NO_LED</footprint>
+      <libsource lib="e-switch-tact" part="TL-1240-NO_LED" description=""/>
+      <sheetpath names="/InputKeys/" tstamps="/6207A49F/"/>
+      <tstamp>620C06D9</tstamp>
+    </comp>
+    <comp ref="R109">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C98220</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/InputKeys/" tstamps="/6207A49F/"/>
+      <tstamp>620C06DF</tstamp>
+    </comp>
+    <comp ref="R112">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C98220</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/InputKeys/" tstamps="/6207A49F/"/>
+      <tstamp>620C06E7</tstamp>
+    </comp>
+    <comp ref="C106">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C115056</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/InputKeys/" tstamps="/6207A49F/"/>
+      <tstamp>620C06FF</tstamp>
+    </comp>
+    <comp ref="SW108">
+      <value>TL-1240-NO_LED</value>
+      <footprint>TL-1240:TL-1240-NO_LED</footprint>
+      <libsource lib="e-switch-tact" part="TL-1240-NO_LED" description=""/>
+      <sheetpath names="/InputKeys/" tstamps="/6207A49F/"/>
+      <tstamp>620C4CA2</tstamp>
+    </comp>
+    <comp ref="R114">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C98220</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/InputKeys/" tstamps="/6207A49F/"/>
+      <tstamp>620C4CA8</tstamp>
+    </comp>
+    <comp ref="R117">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C98220</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/InputKeys/" tstamps="/6207A49F/"/>
+      <tstamp>620C4CB0</tstamp>
+    </comp>
+    <comp ref="C108">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C115056</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/InputKeys/" tstamps="/6207A49F/"/>
+      <tstamp>620C4CC8</tstamp>
+    </comp>
+    <comp ref="SW109">
+      <value>TL-1240-NO_LED</value>
+      <footprint>TL-1240:TL-1240-NO_LED</footprint>
+      <libsource lib="e-switch-tact" part="TL-1240-NO_LED" description=""/>
+      <sheetpath names="/InputKeys/" tstamps="/6207A49F/"/>
+      <tstamp>620C7997</tstamp>
+    </comp>
+    <comp ref="R115">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C98220</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/InputKeys/" tstamps="/6207A49F/"/>
+      <tstamp>620C799D</tstamp>
+    </comp>
+    <comp ref="R118">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C98220</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/InputKeys/" tstamps="/6207A49F/"/>
+      <tstamp>620C79A5</tstamp>
+    </comp>
+    <comp ref="C109">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C115056</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/InputKeys/" tstamps="/6207A49F/"/>
+      <tstamp>620C79BD</tstamp>
+    </comp>
+    <comp ref="SW112">
+      <value>TL-1240-NO_LED</value>
+      <footprint>TL-1240:TL-1240-NO_LED</footprint>
+      <libsource lib="e-switch-tact" part="TL-1240-NO_LED" description=""/>
+      <sheetpath names="/InputKeys/" tstamps="/6207A49F/"/>
+      <tstamp>620CB70E</tstamp>
+    </comp>
+    <comp ref="R121">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C98220</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/InputKeys/" tstamps="/6207A49F/"/>
+      <tstamp>620CB714</tstamp>
+    </comp>
+    <comp ref="R124">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C98220</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/InputKeys/" tstamps="/6207A49F/"/>
+      <tstamp>620CB71C</tstamp>
+    </comp>
+    <comp ref="C112">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C115056</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/InputKeys/" tstamps="/6207A49F/"/>
+      <tstamp>620CB734</tstamp>
+    </comp>
+    <comp ref="SW111">
+      <value>TL-1240-NO_LED</value>
+      <footprint>TL-1240:TL-1240-NO_LED</footprint>
+      <libsource lib="e-switch-tact" part="TL-1240-NO_LED" description=""/>
+      <sheetpath names="/InputKeys/" tstamps="/6207A49F/"/>
+      <tstamp>620D1CFE</tstamp>
+    </comp>
+    <comp ref="R120">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C98220</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/InputKeys/" tstamps="/6207A49F/"/>
+      <tstamp>620D1D04</tstamp>
+    </comp>
+    <comp ref="R123">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C98220</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/InputKeys/" tstamps="/6207A49F/"/>
+      <tstamp>620D1D0C</tstamp>
+    </comp>
+    <comp ref="C111">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C115056</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/InputKeys/" tstamps="/6207A49F/"/>
+      <tstamp>620D1D24</tstamp>
+    </comp>
+    <comp ref="SW110">
+      <value>TL-1240-NO_LED</value>
+      <footprint>TL-1240:TL-1240-NO_LED</footprint>
+      <libsource lib="e-switch-tact" part="TL-1240-NO_LED" description=""/>
+      <sheetpath names="/InputKeys/" tstamps="/6207A49F/"/>
+      <tstamp>620D673F</tstamp>
+    </comp>
+    <comp ref="R119">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C98220</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/InputKeys/" tstamps="/6207A49F/"/>
+      <tstamp>620D6745</tstamp>
+    </comp>
+    <comp ref="R122">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C98220</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/InputKeys/" tstamps="/6207A49F/"/>
+      <tstamp>620D674D</tstamp>
+    </comp>
+    <comp ref="C110">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C115056</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/InputKeys/" tstamps="/6207A49F/"/>
+      <tstamp>620D6765</tstamp>
+    </comp>
+    <comp ref="C113">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/InputKeys/" tstamps="/6207A49F/"/>
+      <tstamp>62134D18</tstamp>
+    </comp>
+    <comp ref="C114">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/InputKeys/" tstamps="/6207A49F/"/>
+      <tstamp>62142167</tstamp>
+    </comp>
+    <comp ref="U102">
+      <value>74HC14</value>
+      <footprint>Package_SO:TSSOP-14_4.4x5mm_P0.65mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74HC14</datasheet>
+      <fields>
+        <field name="JLC">TSSOP-14</field>
+        <field name="LCSC">C6066</field>
+      </fields>
+      <libsource lib="74xx" part="74HC14" description="Hex inverter schmitt trigger"/>
+      <sheetpath names="/InputKeys/" tstamps="/6207A49F/"/>
+      <tstamp>6212D89F</tstamp>
+    </comp>
+    <comp ref="J301">
+      <value>ENC28J60</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x06_Odd_Even" description="Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/MCU+LAN/" tstamps="/6207A4CD/"/>
+      <tstamp>6207C6AF</tstamp>
+    </comp>
+    <comp ref="SW301">
+      <value>SW_ForceSetup</value>
+      <footprint>Button_Switch_SMD:SW_SPST_EVQP7C</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">SMD</field>
+        <field name="LCSC">C388883</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/MCU+LAN/" tstamps="/6207A4CD/"/>
+      <tstamp>620830C2</tstamp>
+    </comp>
+    <comp ref="SW302">
+      <value>SW_Reset</value>
+      <footprint>Button_Switch_SMD:SW_SPST_EVQP7C</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">SMD</field>
+        <field name="LCSC">C388883</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/MCU+LAN/" tstamps="/6207A4CD/"/>
+      <tstamp>62085BE1</tstamp>
+    </comp>
+    <comp ref="SW303">
+      <value>OS102011MA1QN1C</value>
+      <footprint>Button_Switch_THT:SW_CuK_OS102011MA1QN1_SPDT_Angled</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <sheetpath names="/MCU+LAN/" tstamps="/6207A4CD/"/>
+      <tstamp>620D734B</tstamp>
+    </comp>
+    <comp ref="U301">
+      <value>DOIT-ESP32-DEVKIT-V1_30PIN</value>
+      <footprint>doit-esp32-devkit-kicad-master:ESP32-DOIT-DEVKIT_30PIN</footprint>
+      <libsource lib="doit-esp32-devkit-v1" part="DOIT-ESP32-DEVKIT-V1_30PIN" description=""/>
+      <sheetpath names="/MCU+LAN/" tstamps="/6207A4CD/"/>
+      <tstamp>624F1A94</tstamp>
+    </comp>
+    <comp ref="SW201">
+      <value>TL-1240-NO_LED</value>
+      <footprint>TL-1240:TL-1240-NO_LED</footprint>
+      <libsource lib="e-switch-tact" part="TL-1240-NO_LED" description=""/>
+      <sheetpath names="/Navigation+Power/" tstamps="/621626B6/"/>
+      <tstamp>6218C9F5</tstamp>
+    </comp>
+    <comp ref="R201">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C98220</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Navigation+Power/" tstamps="/621626B6/"/>
+      <tstamp>6218C9FB</tstamp>
+    </comp>
+    <comp ref="R203">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C98220</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Navigation+Power/" tstamps="/621626B6/"/>
+      <tstamp>6218CA03</tstamp>
+    </comp>
+    <comp ref="C201">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C115056</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Navigation+Power/" tstamps="/621626B6/"/>
+      <tstamp>6218CA1B</tstamp>
+    </comp>
+    <comp ref="U201">
+      <value>74HC14</value>
+      <footprint>Package_SO:TSSOP-14_4.4x5mm_P0.65mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74HC14</datasheet>
+      <fields>
+        <field name="JLC">TSSOP-14</field>
+        <field name="LCSC">C6066</field>
+      </fields>
+      <libsource lib="74xx" part="74HC14" description="Hex inverter schmitt trigger"/>
+      <sheetpath names="/Navigation+Power/" tstamps="/621626B6/"/>
+      <tstamp>6218CA29</tstamp>
+    </comp>
+    <comp ref="SW202">
+      <value>TL-1240-NO_LED</value>
+      <footprint>TL-1240:TL-1240-NO_LED</footprint>
+      <libsource lib="e-switch-tact" part="TL-1240-NO_LED" description=""/>
+      <sheetpath names="/Navigation+Power/" tstamps="/621626B6/"/>
+      <tstamp>6218EFA5</tstamp>
+    </comp>
+    <comp ref="R202">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C98220</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Navigation+Power/" tstamps="/621626B6/"/>
+      <tstamp>6218EFAB</tstamp>
+    </comp>
+    <comp ref="R204">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C98220</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Navigation+Power/" tstamps="/621626B6/"/>
+      <tstamp>6218EFB3</tstamp>
+    </comp>
+    <comp ref="C202">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C115056</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Navigation+Power/" tstamps="/621626B6/"/>
+      <tstamp>6218EFCB</tstamp>
+    </comp>
+    <comp ref="SW203">
+      <value>TL-1240-NO_LED</value>
+      <footprint>TL-1240:TL-1240-NO_LED</footprint>
+      <libsource lib="e-switch-tact" part="TL-1240-NO_LED" description=""/>
+      <sheetpath names="/Navigation+Power/" tstamps="/621626B6/"/>
+      <tstamp>62192766</tstamp>
+    </comp>
+    <comp ref="R205">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C98220</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Navigation+Power/" tstamps="/621626B6/"/>
+      <tstamp>6219276C</tstamp>
+    </comp>
+    <comp ref="R207">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C98220</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Navigation+Power/" tstamps="/621626B6/"/>
+      <tstamp>62192774</tstamp>
+    </comp>
+    <comp ref="C203">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C115056</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Navigation+Power/" tstamps="/621626B6/"/>
+      <tstamp>6219278C</tstamp>
+    </comp>
+    <comp ref="SW204">
+      <value>TL-1240-NO_LED</value>
+      <footprint>TL-1240:TL-1240-NO_LED</footprint>
+      <libsource lib="e-switch-tact" part="TL-1240-NO_LED" description=""/>
+      <sheetpath names="/Navigation+Power/" tstamps="/621626B6/"/>
+      <tstamp>621951D6</tstamp>
+    </comp>
+    <comp ref="R206">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C98220</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Navigation+Power/" tstamps="/621626B6/"/>
+      <tstamp>621951DC</tstamp>
+    </comp>
+    <comp ref="R208">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C98220</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Navigation+Power/" tstamps="/621626B6/"/>
+      <tstamp>621951E4</tstamp>
+    </comp>
+    <comp ref="C204">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C115056</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Navigation+Power/" tstamps="/621626B6/"/>
+      <tstamp>621951FC</tstamp>
+    </comp>
+    <comp ref="SW205">
+      <value>TL-1240-NO_LED</value>
+      <footprint>TL-1240:TL-1240-NO_LED</footprint>
+      <libsource lib="e-switch-tact" part="TL-1240-NO_LED" description=""/>
+      <sheetpath names="/Navigation+Power/" tstamps="/621626B6/"/>
+      <tstamp>6219A1F3</tstamp>
+    </comp>
+    <comp ref="R209">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C98220</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Navigation+Power/" tstamps="/621626B6/"/>
+      <tstamp>6219A1F9</tstamp>
+    </comp>
+    <comp ref="R210">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C98220</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/Navigation+Power/" tstamps="/621626B6/"/>
+      <tstamp>6219A201</tstamp>
+    </comp>
+    <comp ref="C205">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C115056</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Navigation+Power/" tstamps="/621626B6/"/>
+      <tstamp>6219A219</tstamp>
+    </comp>
+    <comp ref="C206">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLC">0603</field>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Navigation+Power/" tstamps="/621626B6/"/>
+      <tstamp>621A93D4</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xx" part="74HC14">
+      <aliases>
+        <alias>74LS14</alias>
+      </aliases>
+      <description>Hex inverter schmitt trigger</description>
+      <docs>http://www.ti.com/lit/gpn/sn74HC14</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HC14</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="output"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="output"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="~" type="output"/>
+        <pin num="9" name="~" type="input"/>
+        <pin num="10" name="~" type="output"/>
+        <pin num="11" name="~" type="input"/>
+        <pin num="12" name="~" type="output"/>
+        <pin num="13" name="~" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x06_Odd_Even">
+      <description>Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x06_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPDT">
+      <description>Switch, single pole double throw</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPDT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="doit-esp32-devkit-v1" part="DOIT-ESP32-DEVKIT-V1_30PIN">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DOIT-ESP32-DEVKIT-V1_30PIN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN" type="output"/>
+        <pin num="2" name="GPIO36_ADC-CH0_SENS-VP_RTC-GPIO0" type="BiDi"/>
+        <pin num="3" name="GPIO39_ADC1-CH3_SENS-VN_RTC-GPIO3" type="BiDi"/>
+        <pin num="4" name="GPIO34_ADC1-CH6_RTC-GPIO4" type="BiDi"/>
+        <pin num="5" name="GPIO35_ADC1-CH7_RTC-GPIO5" type="BiDi"/>
+        <pin num="6" name="GPIO32_ADC1-CH4_RTC-GPIO9" type="BiDi"/>
+        <pin num="7" name="GPIO33_ADC1-CH5_RTC-GPIO8" type="BiDi"/>
+        <pin num="8" name="GPIO25_ADC2-CH8_DAC1_RTC-GPIO6" type="BiDi"/>
+        <pin num="9" name="GPIO26_ADC2-CH9_DAC2_RTC-GPIO7" type="BiDi"/>
+        <pin num="10" name="GPIO27_ADC2-CH7_RTC-GPIO17" type="BiDi"/>
+        <pin num="11" name="GPIO14_ADC2-CH6_HSPI-CLK_RTC-GPIO16" type="BiDi"/>
+        <pin num="12" name="GPIO12_ADC2-CH5_HSPI-MISO_RTC-GPIO15" type="BiDi"/>
+        <pin num="13" name="GPIO13_ADC2-CH4_HSPI-MOSI_RTC-GPIO14" type="BiDi"/>
+        <pin num="14" name="GND" type="power_in"/>
+        <pin num="15" name="VIN" type="power_in"/>
+        <pin num="22" name="3V3" type="power_out"/>
+        <pin num="23" name="GND" type="power_in"/>
+        <pin num="24" name="GPIO15_ADC2-CH3_HSPI-CS0_RTC-GPIO13" type="BiDi"/>
+        <pin num="25" name="GPIO2_ADC2-CH2_RTC-GPIO12" type="BiDi"/>
+        <pin num="26" name="GPIO4_ADC2-CH0_RTC-GPIO10" type="BiDi"/>
+        <pin num="27" name="GPIO16_UART2-RX" type="BiDi"/>
+        <pin num="28" name="GPIO17_UART2-TX" type="BiDi"/>
+        <pin num="29" name="GPIO5_VSPI-CS0" type="BiDi"/>
+        <pin num="30" name="GPIO18_VSPI-CLK" type="BiDi"/>
+        <pin num="31" name="GPIO19_VSPI-MISO" type="BiDi"/>
+        <pin num="32" name="GPIO21_I2C-SDA" type="BiDi"/>
+        <pin num="33" name="GPIO3__UART0-RX" type="BiDi"/>
+        <pin num="34" name="GPIO1_UART0-TX" type="BiDi"/>
+        <pin num="35" name="GPIO22_I2C-SCL" type="BiDi"/>
+        <pin num="36" name="GPIO23_VSPI-MOSI" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="e-switch-tact" part="TL-1240-NO_LED">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">TL-1240-NO_LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="BiDi"/>
+        <pin num="2" name="2" type="BiDi"/>
+        <pin num="3" name="3" type="BiDi"/>
+        <pin num="4" name="4" type="BiDi"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74xx">
+      <uri>/usr/share/kicad/library/74xx.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/library/Mechanical.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/library/Switch.lib</uri>
+    </library>
+    <library logical="doit-esp32-devkit-v1">
+      <uri>/home/martin/SkumServer/eda-projects/bkm-15r-mini/doit-esp32-devkit-kicad-master/doit-esp32-devkit-v1.lib</uri>
+    </library>
+    <library logical="e-switch-tact">
+      <uri>/home/martin/SkumServer/eda-projects/bkm-15r-mini/e-switch-tact.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(SW109-Pad4)">
+      <node ref="SW109" pin="4"/>
+    </net>
+    <net code="2" name="Net-(SW112-Pad4)">
+      <node ref="SW112" pin="4"/>
+    </net>
+    <net code="3" name="Net-(R121-Pad2)">
+      <node ref="SW112" pin="2"/>
+      <node ref="R121" pin="2"/>
+    </net>
+    <net code="4" name="Net-(R124-Pad2)">
+      <node ref="R124" pin="2"/>
+      <node ref="SW112" pin="1"/>
+    </net>
+    <net code="5" name="GND">
+      <node ref="SW104" pin="3"/>
+      <node ref="C105" pin="2"/>
+      <node ref="SW105" pin="3"/>
+      <node ref="SW106" pin="3"/>
+      <node ref="SW103" pin="3"/>
+      <node ref="C111" pin="2"/>
+      <node ref="C103" pin="2"/>
+      <node ref="C102" pin="2"/>
+      <node ref="C110" pin="2"/>
+      <node ref="SW107" pin="3"/>
+      <node ref="SW110" pin="3"/>
+      <node ref="SW111" pin="3"/>
+      <node ref="SW203" pin="3"/>
+      <node ref="C104" pin="2"/>
+      <node ref="SW102" pin="3"/>
+      <node ref="C107" pin="2"/>
+      <node ref="C101" pin="2"/>
+      <node ref="SW101" pin="3"/>
+      <node ref="C206" pin="1"/>
+      <node ref="C205" pin="2"/>
+      <node ref="SW202" pin="3"/>
+      <node ref="SW201" pin="3"/>
+      <node ref="C201" pin="2"/>
+      <node ref="C203" pin="2"/>
+      <node ref="C202" pin="2"/>
+      <node ref="SW303" pin="1"/>
+      <node ref="U301" pin="14"/>
+      <node ref="U301" pin="23"/>
+      <node ref="J301" pin="2"/>
+      <node ref="J301" pin="12"/>
+      <node ref="SW302" pin="1"/>
+      <node ref="SW301" pin="1"/>
+      <node ref="C204" pin="2"/>
+      <node ref="SW205" pin="3"/>
+      <node ref="SW204" pin="3"/>
+      <node ref="U201" pin="13"/>
+      <node ref="U201" pin="7"/>
+      <node ref="U102" pin="7"/>
+      <node ref="C112" pin="2"/>
+      <node ref="C114" pin="1"/>
+      <node ref="SW112" pin="3"/>
+      <node ref="SW108" pin="3"/>
+      <node ref="C106" pin="2"/>
+      <node ref="C108" pin="2"/>
+      <node ref="SW109" pin="3"/>
+      <node ref="C109" pin="2"/>
+      <node ref="U101" pin="7"/>
+      <node ref="C113" pin="1"/>
+    </net>
+    <net code="6" name="Net-(C109-Pad1)">
+      <node ref="C109" pin="1"/>
+      <node ref="R118" pin="1"/>
+      <node ref="U102" pin="5"/>
+    </net>
+    <net code="7" name="Net-(R118-Pad2)">
+      <node ref="SW109" pin="1"/>
+      <node ref="R118" pin="2"/>
+    </net>
+    <net code="8" name="+3V3">
+      <node ref="R109" pin="1"/>
+      <node ref="R108" pin="1"/>
+      <node ref="R101" pin="1"/>
+      <node ref="C114" pin="2"/>
+      <node ref="R107" pin="1"/>
+      <node ref="C113" pin="2"/>
+      <node ref="R202" pin="1"/>
+      <node ref="R201" pin="1"/>
+      <node ref="R205" pin="1"/>
+      <node ref="R121" pin="1"/>
+      <node ref="R206" pin="1"/>
+      <node ref="R103" pin="1"/>
+      <node ref="R115" pin="1"/>
+      <node ref="U301" pin="22"/>
+      <node ref="R114" pin="1"/>
+      <node ref="R209" pin="1"/>
+      <node ref="U201" pin="14"/>
+      <node ref="C206" pin="2"/>
+      <node ref="U102" pin="14"/>
+      <node ref="R120" pin="1"/>
+      <node ref="R102" pin="1"/>
+      <node ref="R119" pin="1"/>
+      <node ref="R113" pin="1"/>
+      <node ref="U101" pin="14"/>
+    </net>
+    <net code="9" name="Net-(R123-Pad2)">
+      <node ref="SW111" pin="1"/>
+      <node ref="R123" pin="2"/>
+    </net>
+    <net code="10" name="Net-(C112-Pad1)">
+      <node ref="U102" pin="13"/>
+      <node ref="R124" pin="1"/>
+      <node ref="C112" pin="1"/>
+    </net>
+    <net code="11" name="Net-(R115-Pad2)">
+      <node ref="SW109" pin="2"/>
+      <node ref="R115" pin="2"/>
+    </net>
+    <net code="12" name="Net-(R114-Pad2)">
+      <node ref="R114" pin="2"/>
+      <node ref="SW108" pin="2"/>
+    </net>
+    <net code="13" name="Net-(SW108-Pad4)">
+      <node ref="SW108" pin="4"/>
+    </net>
+    <net code="14" name="Net-(R117-Pad2)">
+      <node ref="R117" pin="2"/>
+      <node ref="SW108" pin="1"/>
+    </net>
+    <net code="15" name="Net-(C106-Pad1)">
+      <node ref="C106" pin="1"/>
+      <node ref="U101" pin="13"/>
+      <node ref="R112" pin="1"/>
+    </net>
+    <net code="16" name="Net-(R112-Pad2)">
+      <node ref="SW106" pin="1"/>
+      <node ref="R112" pin="2"/>
+    </net>
+    <net code="17" name="Net-(SW106-Pad4)">
+      <node ref="SW106" pin="4"/>
+    </net>
+    <net code="18" name="Net-(C108-Pad1)">
+      <node ref="U102" pin="3"/>
+      <node ref="R117" pin="1"/>
+      <node ref="C108" pin="1"/>
+    </net>
+    <net code="19" name="Net-(R120-Pad2)">
+      <node ref="R120" pin="2"/>
+      <node ref="SW111" pin="2"/>
+    </net>
+    <net code="20" name="Net-(C110-Pad1)">
+      <node ref="U102" pin="9"/>
+      <node ref="C110" pin="1"/>
+      <node ref="R122" pin="1"/>
+    </net>
+    <net code="21" name="INPUT_KEY0">
+      <node ref="U301" pin="4"/>
+      <node ref="U102" pin="10"/>
+    </net>
+    <net code="22" name="INPUT_KEY_ENT">
+      <node ref="U301" pin="3"/>
+      <node ref="U102" pin="12"/>
+    </net>
+    <net code="23" name="INPUT_KEY7">
+      <node ref="U102" pin="2"/>
+      <node ref="U301" pin="7"/>
+    </net>
+    <net code="24" name="Net-(C107-Pad1)">
+      <node ref="U102" pin="1"/>
+      <node ref="R116" pin="1"/>
+      <node ref="C107" pin="1"/>
+    </net>
+    <net code="25" name="INPUT_KEY8">
+      <node ref="U102" pin="4"/>
+      <node ref="U301" pin="6"/>
+    </net>
+    <net code="26" name="INPUT_KEY9">
+      <node ref="U301" pin="5"/>
+      <node ref="U102" pin="6"/>
+    </net>
+    <net code="27" name="INPUT_KEY_DEL">
+      <node ref="U102" pin="8"/>
+      <node ref="U301" pin="2"/>
+    </net>
+    <net code="28" name="Net-(C111-Pad1)">
+      <node ref="U102" pin="11"/>
+      <node ref="R123" pin="1"/>
+      <node ref="C111" pin="1"/>
+    </net>
+    <net code="29" name="Net-(SW111-Pad4)">
+      <node ref="SW111" pin="4"/>
+    </net>
+    <net code="30" name="Net-(R122-Pad2)">
+      <node ref="SW110" pin="1"/>
+      <node ref="R122" pin="2"/>
+    </net>
+    <net code="31" name="Net-(SW110-Pad4)">
+      <node ref="SW110" pin="4"/>
+    </net>
+    <net code="32" name="INPUT_KEY3">
+      <node ref="U301" pin="11"/>
+      <node ref="U101" pin="2"/>
+    </net>
+    <net code="33" name="Net-(R119-Pad2)">
+      <node ref="SW110" pin="2"/>
+      <node ref="R119" pin="2"/>
+    </net>
+    <net code="34" name="Net-(R116-Pad2)">
+      <node ref="SW107" pin="1"/>
+      <node ref="R116" pin="2"/>
+    </net>
+    <net code="35" name="Net-(R113-Pad2)">
+      <node ref="SW107" pin="2"/>
+      <node ref="R113" pin="2"/>
+    </net>
+    <net code="36" name="Net-(SW107-Pad4)">
+      <node ref="SW107" pin="4"/>
+    </net>
+    <net code="37" name="Net-(C104-Pad1)">
+      <node ref="R110" pin="1"/>
+      <node ref="U101" pin="9"/>
+      <node ref="C104" pin="1"/>
+    </net>
+    <net code="38" name="Net-(R110-Pad2)">
+      <node ref="R110" pin="2"/>
+      <node ref="SW104" pin="1"/>
+    </net>
+    <net code="39" name="Net-(SW104-Pad4)">
+      <node ref="SW104" pin="4"/>
+    </net>
+    <net code="40" name="Net-(SW102-Pad4)">
+      <node ref="SW102" pin="4"/>
+    </net>
+    <net code="41" name="Net-(R102-Pad2)">
+      <node ref="R102" pin="2"/>
+      <node ref="SW102" pin="2"/>
+    </net>
+    <net code="42" name="Net-(R105-Pad2)">
+      <node ref="R105" pin="2"/>
+      <node ref="SW102" pin="1"/>
+    </net>
+    <net code="43" name="INPUT_KEY2">
+      <node ref="U301" pin="12"/>
+      <node ref="U101" pin="4"/>
+    </net>
+    <net code="44" name="Net-(C102-Pad1)">
+      <node ref="U101" pin="3"/>
+      <node ref="C102" pin="1"/>
+      <node ref="R105" pin="1"/>
+    </net>
+    <net code="45" name="Net-(C101-Pad1)">
+      <node ref="C101" pin="1"/>
+      <node ref="U101" pin="5"/>
+      <node ref="R104" pin="1"/>
+    </net>
+    <net code="46" name="Net-(R104-Pad2)">
+      <node ref="R104" pin="2"/>
+      <node ref="SW101" pin="1"/>
+    </net>
+    <net code="47" name="Net-(SW101-Pad4)">
+      <node ref="SW101" pin="4"/>
+    </net>
+    <net code="48" name="Net-(R101-Pad2)">
+      <node ref="R101" pin="2"/>
+      <node ref="SW101" pin="2"/>
+    </net>
+    <net code="49" name="Net-(C103-Pad1)">
+      <node ref="C103" pin="1"/>
+      <node ref="R106" pin="1"/>
+      <node ref="U101" pin="1"/>
+    </net>
+    <net code="50" name="Net-(R107-Pad2)">
+      <node ref="R107" pin="2"/>
+      <node ref="SW104" pin="2"/>
+    </net>
+    <net code="51" name="INPUT_KEY4">
+      <node ref="U301" pin="10"/>
+      <node ref="U101" pin="8"/>
+    </net>
+    <net code="52" name="Net-(R108-Pad2)">
+      <node ref="SW105" pin="2"/>
+      <node ref="R108" pin="2"/>
+    </net>
+    <net code="53" name="Net-(SW105-Pad4)">
+      <node ref="SW105" pin="4"/>
+    </net>
+    <net code="54" name="Net-(R111-Pad2)">
+      <node ref="SW105" pin="1"/>
+      <node ref="R111" pin="2"/>
+    </net>
+    <net code="55" name="Net-(C105-Pad1)">
+      <node ref="U101" pin="11"/>
+      <node ref="R111" pin="1"/>
+      <node ref="C105" pin="1"/>
+    </net>
+    <net code="56" name="INPUT_KEY5">
+      <node ref="U301" pin="9"/>
+      <node ref="U101" pin="10"/>
+    </net>
+    <net code="57" name="Net-(R109-Pad2)">
+      <node ref="SW106" pin="2"/>
+      <node ref="R109" pin="2"/>
+    </net>
+    <net code="58" name="INPUT_KEY6">
+      <node ref="U101" pin="12"/>
+      <node ref="U301" pin="8"/>
+    </net>
+    <net code="59" name="Net-(R106-Pad2)">
+      <node ref="SW103" pin="1"/>
+      <node ref="R106" pin="2"/>
+    </net>
+    <net code="60" name="INPUT_KEY1">
+      <node ref="U301" pin="13"/>
+      <node ref="U101" pin="6"/>
+    </net>
+    <net code="61" name="Net-(R103-Pad2)">
+      <node ref="R103" pin="2"/>
+      <node ref="SW103" pin="2"/>
+    </net>
+    <net code="62" name="Net-(SW103-Pad4)">
+      <node ref="SW103" pin="4"/>
+    </net>
+    <net code="63" name="Net-(SW303-Pad3)">
+      <node ref="SW303" pin="3"/>
+    </net>
+    <net code="64" name="Net-(U301-Pad34)">
+      <node ref="U301" pin="34"/>
+    </net>
+    <net code="65" name="RESET">
+      <node ref="SW302" pin="2"/>
+      <node ref="U301" pin="1"/>
+    </net>
+    <net code="66" name="DISABLE_WIFI">
+      <node ref="SW303" pin="2"/>
+      <node ref="U301" pin="28"/>
+    </net>
+    <net code="67" name="NAV_KEY_DOWN">
+      <node ref="U301" pin="35"/>
+      <node ref="U201" pin="10"/>
+    </net>
+    <net code="68" name="FORCE_SETUP">
+      <node ref="U301" pin="33"/>
+      <node ref="SW301" pin="2"/>
+    </net>
+    <net code="69" name="NAV_KEY_ENTER">
+      <node ref="U201" pin="8"/>
+      <node ref="U301" pin="32"/>
+    </net>
+    <net code="70" name="KEY_POWER">
+      <node ref="U301" pin="27"/>
+      <node ref="U201" pin="6"/>
+    </net>
+    <net code="71" name="NAV_KEY_UP">
+      <node ref="U301" pin="26"/>
+      <node ref="U201" pin="2"/>
+    </net>
+    <net code="72" name="/MCU+LAN/ONBOARD_LED">
+      <node ref="U301" pin="25"/>
+    </net>
+    <net code="73" name="NAV_KEY_MENU">
+      <node ref="U201" pin="4"/>
+      <node ref="U301" pin="24"/>
+    </net>
+    <net code="74" name="+5V">
+      <node ref="J301" pin="1"/>
+      <node ref="U301" pin="15"/>
+    </net>
+    <net code="75" name="RST">
+      <node ref="J301" pin="9"/>
+    </net>
+    <net code="76" name="ST">
+      <node ref="J301" pin="8"/>
+      <node ref="U301" pin="36"/>
+    </net>
+    <net code="77" name="SCK">
+      <node ref="U301" pin="30"/>
+      <node ref="J301" pin="7"/>
+    </net>
+    <net code="78" name="WOL">
+      <node ref="J301" pin="6"/>
+    </net>
+    <net code="79" name="SO">
+      <node ref="J301" pin="5"/>
+      <node ref="U301" pin="31"/>
+    </net>
+    <net code="80" name="CLK">
+      <node ref="J301" pin="4"/>
+    </net>
+    <net code="81" name="LNT">
+      <node ref="J301" pin="3"/>
+    </net>
+    <net code="82" name="Q3">
+      <node ref="J301" pin="11"/>
+    </net>
+    <net code="83" name="CS">
+      <node ref="J301" pin="10"/>
+      <node ref="U301" pin="29"/>
+    </net>
+    <net code="84" name="Net-(SW204-Pad4)">
+      <node ref="SW204" pin="4"/>
+    </net>
+    <net code="85" name="Net-(R208-Pad2)">
+      <node ref="SW204" pin="1"/>
+      <node ref="R208" pin="2"/>
+    </net>
+    <net code="86" name="Net-(C204-Pad1)">
+      <node ref="C204" pin="1"/>
+      <node ref="R208" pin="1"/>
+      <node ref="U201" pin="9"/>
+    </net>
+    <net code="87" name="Net-(SW205-Pad4)">
+      <node ref="SW205" pin="4"/>
+    </net>
+    <net code="88" name="Net-(R209-Pad2)">
+      <node ref="R209" pin="2"/>
+      <node ref="SW205" pin="2"/>
+    </net>
+    <net code="89" name="Net-(R206-Pad2)">
+      <node ref="R206" pin="2"/>
+      <node ref="SW204" pin="2"/>
+    </net>
+    <net code="90" name="Net-(U201-Pad12)">
+      <node ref="U201" pin="12"/>
+    </net>
+    <net code="91" name="Net-(C205-Pad1)">
+      <node ref="U201" pin="5"/>
+      <node ref="C205" pin="1"/>
+      <node ref="R210" pin="1"/>
+    </net>
+    <net code="92" name="Net-(R210-Pad2)">
+      <node ref="R210" pin="2"/>
+      <node ref="SW205" pin="1"/>
+    </net>
+    <net code="93" name="Net-(C201-Pad1)">
+      <node ref="C201" pin="1"/>
+      <node ref="R203" pin="1"/>
+      <node ref="U201" pin="1"/>
+    </net>
+    <net code="94" name="Net-(R203-Pad2)">
+      <node ref="R203" pin="2"/>
+      <node ref="SW201" pin="1"/>
+    </net>
+    <net code="95" name="Net-(SW202-Pad4)">
+      <node ref="SW202" pin="4"/>
+    </net>
+    <net code="96" name="Net-(R202-Pad2)">
+      <node ref="SW202" pin="2"/>
+      <node ref="R202" pin="2"/>
+    </net>
+    <net code="97" name="Net-(R204-Pad2)">
+      <node ref="SW202" pin="1"/>
+      <node ref="R204" pin="2"/>
+    </net>
+    <net code="98" name="Net-(SW201-Pad4)">
+      <node ref="SW201" pin="4"/>
+    </net>
+    <net code="99" name="Net-(R201-Pad2)">
+      <node ref="R201" pin="2"/>
+      <node ref="SW201" pin="2"/>
+    </net>
+    <net code="100" name="Net-(R205-Pad2)">
+      <node ref="SW203" pin="2"/>
+      <node ref="R205" pin="2"/>
+    </net>
+    <net code="101" name="Net-(C203-Pad1)">
+      <node ref="R207" pin="1"/>
+      <node ref="U201" pin="11"/>
+      <node ref="C203" pin="1"/>
+    </net>
+    <net code="102" name="Net-(R207-Pad2)">
+      <node ref="R207" pin="2"/>
+      <node ref="SW203" pin="1"/>
+    </net>
+    <net code="103" name="Net-(SW203-Pad4)">
+      <node ref="SW203" pin="4"/>
+    </net>
+    <net code="104" name="Net-(C202-Pad1)">
+      <node ref="U201" pin="3"/>
+      <node ref="C202" pin="1"/>
+      <node ref="R204" pin="1"/>
+    </net>
+  </nets>
+</export>
