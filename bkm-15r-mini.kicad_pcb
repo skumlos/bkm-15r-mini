@@ -89,7 +89,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "plot_reva"))
+      (outputdirectory "plot/"))
   )
 
   (net 0 "")
@@ -3917,7 +3917,7 @@
   (segment (start 125.14 53.84) (end 123.2 55.78) (width 0.25) (layer B.Cu) (net 78) (status 20))
   (segment (start 125.14 52.74) (end 125.14 53.84) (width 0.25) (layer B.Cu) (net 78))
 
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 62571B69) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 6261BF38) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -4666,7 +4666,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 62571B66) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 6261BF35) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
