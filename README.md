@@ -24,3 +24,7 @@ I modified it to fit the seemingly more common 30 pin version of the ESP32 Devki
 
 (2022) Martin Hejnfelt (martin@hejnfelt.com)
 www.immerhax.com
+
+This work is free. You can redistribute it and/or modify it under the
+terms of the Do What The Fuck You Want To Public License, Version 2,
+as published by Sam Hocevar. See the LICENSE file for more details.
